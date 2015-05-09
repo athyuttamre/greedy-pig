@@ -255,7 +255,7 @@ public class Player
                     
                     System.out.println("\n\n\n\n\n");
                     Thread.sleep(80);
-                    Start.main();
+                    Start.main(new String[0]);
                 }
                 else{
                     Ornamental.pS("Goodbye !");
@@ -433,7 +433,7 @@ public class Player
                 if(playAgain.equalsIgnoreCase("y")) {
                     System.out.println("\n\n\n\n\n");
                     Thread.sleep(80);
-                    Start.main();
+                    Start.main(new String[0]);
                 }
                 else {
                     Ornamental.pS("Goodbye !");

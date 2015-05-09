@@ -30,7 +30,7 @@ public class Start
     * the main method introduces the game and greets the user, following which it invokes the game() method, which
     * takes over control and begins the actual execution of the game.
     */
-   public static void main () throws Exception 
+   public static void main (String[] args) throws Exception 
    {
        
        System.out.println("    *           *         ");
